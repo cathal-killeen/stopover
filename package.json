@@ -1,0 +1,15 @@
+{
+  "name": "stopover",
+  "version": "1.0.0",
+  "description": "App for planning stopovers on long international flights",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1"
+  }
+}

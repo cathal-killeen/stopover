@@ -1,0 +1,1410 @@
+[
+  {
+    "kind": "qpxExpress#tripsSearch",
+    "trips": {
+      "kind": "qpxexpress#tripOptions",
+      "requestId": "IBF6e8Wrotlrpv5fc0P8Tr",
+      "data": {
+        "kind": "qpxexpress#data",
+        "airport": [
+          {
+            "kind": "qpxexpress#airportData",
+            "code": "AMS",
+            "city": "AMS",
+            "name": "Amsterdam Schiphol Airport"
+          },
+          {
+            "kind": "qpxexpress#airportData",
+            "code": "ATL",
+            "city": "ATL",
+            "name": "Atlanta Hartsfield-Jackson International"
+          },
+          {
+            "kind": "qpxexpress#airportData",
+            "code": "BOM",
+            "city": "BOM",
+            "name": "Mumbai/Bombay Chhatrapati Shivaji Int'l"
+          },
+          {
+            "kind": "qpxexpress#airportData",
+            "code": "CDG",
+            "city": "PAR",
+            "name": "Paris Charles de Gaulle"
+          }
+        ],
+        "city": [
+          {
+            "kind": "qpxexpress#cityData",
+            "code": "AMS",
+            "name": "Amsterdam"
+          },
+          {
+            "kind": "qpxexpress#cityData",
+            "code": "ATL",
+            "name": "Atlanta"
+          },
+          {
+            "kind": "qpxexpress#cityData",
+            "code": "BOM",
+            "name": "Mumbai"
+          },
+          {
+            "kind": "qpxexpress#cityData",
+            "code": "PAR",
+            "name": "Paris"
+          }
+        ],
+        "aircraft": [
+          {
+            "kind": "qpxexpress#aircraftData",
+            "code": "764",
+            "name": "Boeing 767"
+          },
+          {
+            "kind": "qpxexpress#aircraftData",
+            "code": "772",
+            "name": "Boeing 777"
+          },
+          {
+            "kind": "qpxexpress#aircraftData",
+            "code": "77W",
+            "name": "Boeing 777"
+          }
+        ],
+        "tax": [
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "XY",
+            "name": "US Immigration Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "IN",
+            "name": "Indian User Development Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "FR_007",
+            "name": "French Airport Tax"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "QX",
+            "name": "French International Passenger Service Charge"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "XA",
+            "name": "USDA APHIS Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "YR_I",
+            "name": "KL YR surcharge"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "RN_001",
+            "name": "Netherlands Passenger Service Charge"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "CJ_001",
+            "name": "Netherlands Security Service Charge"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "YC",
+            "name": "US Customs Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "XF",
+            "name": "US Passenger Facility Charge"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "YM_001",
+            "name": "India Development Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "WO_001",
+            "name": "Indian Passenger Service Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "AY_001",
+            "name": "US September 11th Security Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "US_002",
+            "name": "US International Departure Tax"
+          }
+        ],
+        "carrier": [
+          {
+            "kind": "qpxexpress#carrierData",
+            "code": "AF",
+            "name": "Air France"
+          },
+          {
+            "kind": "qpxexpress#carrierData",
+            "code": "KL",
+            "name": "KLM Royal Dutch Airlines"
+          }
+        ]
+      },
+      "tripOption": [
+        {
+          "kind": "qpxexpress#tripOption",
+          "saleTotal": "USD760.08",
+          "id": "eeKHpWjSxt7NHzEnQll8t5001",
+          "slice": [
+            {
+              "kind": "qpxexpress#sliceInfo",
+              "duration": 480,
+              "segment": [
+                {
+                  "kind": "qpxexpress#segmentInfo",
+                  "duration": 480,
+                  "flight": {
+                    "carrier": "KL",
+                    "number": "622"
+                  },
+                  "id": "GWLnfmg1za3lsQdQ",
+                  "cabin": "COACH",
+                  "bookingCode": "V",
+                  "bookingCodeCount": 9,
+                  "marriedSegmentGroup": "0",
+                  "leg": [
+                    {
+                      "kind": "qpxexpress#legInfo",
+                      "id": "Lq06+QGvgzcfCkXl",
+                      "aircraft": "772",
+                      "arrivalTime": "2017-02-07T12:25+01:00",
+                      "departureTime": "2017-02-06T22:25-05:00",
+                      "origin": "ATL",
+                      "destination": "AMS",
+                      "originTerminal": "I",
+                      "duration": 480,
+                      "mileage": 4388,
+                      "meal": "Meal",
+                      "secure": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "qpxexpress#sliceInfo",
+              "duration": 510,
+              "segment": [
+                {
+                  "kind": "qpxexpress#segmentInfo",
+                  "duration": 510,
+                  "flight": {
+                    "carrier": "KL",
+                    "number": "3815"
+                  },
+                  "id": "GWIX+AwbonJebjUa",
+                  "cabin": "COACH",
+                  "bookingCode": "V",
+                  "bookingCodeCount": 9,
+                  "marriedSegmentGroup": "1",
+                  "leg": [
+                    {
+                      "kind": "qpxexpress#legInfo",
+                      "id": "LW+VX63AMLmphjEn",
+                      "aircraft": "77W",
+                      "arrivalTime": "2017-02-09T00:20+05:30",
+                      "departureTime": "2017-02-08T11:20+01:00",
+                      "origin": "AMS",
+                      "destination": "BOM",
+                      "destinationTerminal": "2",
+                      "duration": 510,
+                      "operatingDisclosure": "OPERATED BY JET AIRWAYS",
+                      "mileage": 4260,
+                      "meal": "Lunch"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "qpxexpress#sliceInfo",
+              "duration": 1268,
+              "segment": [
+                {
+                  "kind": "qpxexpress#segmentInfo",
+                  "duration": 595,
+                  "flight": {
+                    "carrier": "AF",
+                    "number": "217"
+                  },
+                  "id": "GhYITqRm6HOVM0ER",
+                  "cabin": "COACH",
+                  "bookingCode": "V",
+                  "bookingCodeCount": 9,
+                  "marriedSegmentGroup": "2",
+                  "leg": [
+                    {
+                      "kind": "qpxexpress#legInfo",
+                      "id": "LdNtmvkXBeKy9wLK",
+                      "aircraft": "772",
+                      "arrivalTime": "2017-02-16T07:35+01:00",
+                      "departureTime": "2017-02-16T02:10+05:30",
+                      "origin": "BOM",
+                      "destination": "CDG",
+                      "originTerminal": "2",
+                      "destinationTerminal": "2E",
+                      "duration": 595,
+                      "mileage": 4343,
+                      "meal": "Breakfast"
+                    }
+                  ],
+                  "connectionDuration": 65
+                },
+                {
+                  "kind": "qpxexpress#segmentInfo",
+                  "duration": 608,
+                  "flight": {
+                    "carrier": "AF",
+                    "number": "3620"
+                  },
+                  "id": "G+skTBAVexU9-cEG",
+                  "cabin": "COACH",
+                  "bookingCode": "V",
+                  "bookingCodeCount": 9,
+                  "marriedSegmentGroup": "2",
+                  "leg": [
+                    {
+                      "kind": "qpxexpress#legInfo",
+                      "id": "LHeoui3UnvvGGX1w",
+                      "aircraft": "764",
+                      "arrivalTime": "2017-02-16T12:48-05:00",
+                      "departureTime": "2017-02-16T08:40+01:00",
+                      "origin": "CDG",
+                      "destination": "ATL",
+                      "originTerminal": "2E",
+                      "destinationTerminal": "I",
+                      "duration": 608,
+                      "operatingDisclosure": "OPERATED BY DELTA",
+                      "mileage": 4382,
+                      "meal": "Breakfast",
+                      "secure": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "pricing": [
+            {
+              "kind": "qpxexpress#pricingInfo",
+              "fare": [
+                {
+                  "kind": "qpxexpress#fareInfo",
+                  "id": "AEM4UD0Eo3akPzA8APeqnNcpYV9opy6c1nHUZfKGNkKs",
+                  "carrier": "KL",
+                  "origin": "ATL",
+                  "destination": "BOM",
+                  "basisCode": "VL2OR5US"
+                },
+                {
+                  "kind": "qpxexpress#fareInfo",
+                  "id": "AFQroS4VxPZGVwLp97hY++q0jGTsUry361qsnnn4qOdI",
+                  "carrier": "AF",
+                  "origin": "BOM",
+                  "destination": "ATL",
+                  "basisCode": "VL2OR5US"
+                }
+              ],
+              "segmentPricing": [
+                {
+                  "kind": "qpxexpress#segmentPricing",
+                  "fareId": "AFQroS4VxPZGVwLp97hY++q0jGTsUry361qsnnn4qOdI",
+                  "segmentId": "G+skTBAVexU9-cEG"
+                },
+                {
+                  "kind": "qpxexpress#segmentPricing",
+                  "fareId": "AFQroS4VxPZGVwLp97hY++q0jGTsUry361qsnnn4qOdI",
+                  "segmentId": "GhYITqRm6HOVM0ER"
+                },
+                {
+                  "kind": "qpxexpress#segmentPricing",
+                  "fareId": "AEM4UD0Eo3akPzA8APeqnNcpYV9opy6c1nHUZfKGNkKs",
+                  "segmentId": "GWLnfmg1za3lsQdQ"
+                },
+                {
+                  "kind": "qpxexpress#segmentPricing",
+                  "fareId": "AEM4UD0Eo3akPzA8APeqnNcpYV9opy6c1nHUZfKGNkKs",
+                  "segmentId": "GWIX+AwbonJebjUa"
+                }
+              ],
+              "baseFareTotal": "USD129.00",
+              "saleFareTotal": "USD129.00",
+              "saleTaxTotal": "USD631.08",
+              "saleTotal": "USD760.08",
+              "passengers": {
+                "kind": "qpxexpress#passengerCounts",
+                "adultCount": 1
+              },
+              "tax": [
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "YR_I",
+                  "chargeType": "CARRIER_SURCHARGE",
+                  "code": "YR",
+                  "salePrice": "USD249.00"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "US_002",
+                  "chargeType": "GOVERNMENT",
+                  "code": "US",
+                  "country": "US",
+                  "salePrice": "USD17.80"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "AY_001",
+                  "chargeType": "GOVERNMENT",
+                  "code": "AY",
+                  "country": "US",
+                  "salePrice": "USD5.60"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "XF",
+                  "chargeType": "GOVERNMENT",
+                  "code": "XF",
+                  "country": "US",
+                  "salePrice": "USD4.50"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "RN_001",
+                  "chargeType": "GOVERNMENT",
+                  "code": "RN",
+                  "country": "NL",
+                  "salePrice": "USD6.50"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "CJ_001",
+                  "chargeType": "GOVERNMENT",
+                  "code": "CJ",
+                  "country": "NL",
+                  "salePrice": "USD6.60"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "XA",
+                  "chargeType": "GOVERNMENT",
+                  "code": "XA",
+                  "country": "US",
+                  "salePrice": "USD3.96"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "XY",
+                  "chargeType": "GOVERNMENT",
+                  "code": "XY",
+                  "country": "US",
+                  "salePrice": "USD7.00"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "YC",
+                  "chargeType": "GOVERNMENT",
+                  "code": "YC",
+                  "country": "US",
+                  "salePrice": "USD5.50"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "YR_I",
+                  "chargeType": "CARRIER_SURCHARGE",
+                  "code": "YR",
+                  "salePrice": "USD249.00"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "QX",
+                  "chargeType": "GOVERNMENT",
+                  "code": "QX",
+                  "country": "FR",
+                  "salePrice": "USD20.90"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "FR_007",
+                  "chargeType": "GOVERNMENT",
+                  "code": "FR",
+                  "country": "FR",
+                  "salePrice": "USD9.10"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "US_002",
+                  "chargeType": "GOVERNMENT",
+                  "code": "US",
+                  "country": "US",
+                  "salePrice": "USD17.80"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "YM_001",
+                  "chargeType": "GOVERNMENT",
+                  "code": "YM",
+                  "country": "IN",
+                  "salePrice": "USD12.40"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "WO_001",
+                  "chargeType": "GOVERNMENT",
+                  "code": "WO",
+                  "country": "IN",
+                  "salePrice": "USD3.74"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "IN",
+                  "chargeType": "GOVERNMENT",
+                  "code": "IN",
+                  "country": "IN",
+                  "salePrice": "USD11.68"
+                }
+              ],
+              "fareCalculation": "ATL KL X/AMS KL BOM M 64.50VL2OR5US AF X/PAR AF ATL M 64.50VL2OR5US NUC 129.00 END ROE 1.00 FARE USD 129.00 XT 5.50YC 7.00XY 3.96XA 35.60US 5.60AY 6.60CJ 6.50RN 11.68IN 3.74WO 12.40YM 9.10FR 20.90QX 498.00YR 4.50XF ATL4.50",
+              "latestTicketingTime": "2016-09-27T06:43+00:00",
+              "ptc": "ADT"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "kind": "qpxExpress#tripsSearch",
+    "trips": {
+      "kind": "qpxexpress#tripOptions",
+      "requestId": "1FUa7nE3osoFq32ra0P8Tr",
+      "data": {
+        "kind": "qpxexpress#data",
+        "airport": [
+          {
+            "kind": "qpxexpress#airportData",
+            "code": "ATL",
+            "city": "ATL",
+            "name": "Atlanta Hartsfield-Jackson International"
+          },
+          {
+            "kind": "qpxexpress#airportData",
+            "code": "BOM",
+            "city": "BOM",
+            "name": "Mumbai/Bombay Chhatrapati Shivaji Int'l"
+          },
+          {
+            "kind": "qpxexpress#airportData",
+            "code": "CDG",
+            "city": "PAR",
+            "name": "Paris Charles de Gaulle"
+          }
+        ],
+        "city": [
+          {
+            "kind": "qpxexpress#cityData",
+            "code": "ATL",
+            "name": "Atlanta"
+          },
+          {
+            "kind": "qpxexpress#cityData",
+            "code": "BOM",
+            "name": "Mumbai"
+          },
+          {
+            "kind": "qpxexpress#cityData",
+            "code": "PAR",
+            "name": "Paris"
+          }
+        ],
+        "aircraft": [
+          {
+            "kind": "qpxexpress#aircraftData",
+            "code": "764",
+            "name": "Boeing 767"
+          },
+          {
+            "kind": "qpxexpress#aircraftData",
+            "code": "772",
+            "name": "Boeing 777"
+          },
+          {
+            "kind": "qpxexpress#aircraftData",
+            "code": "77W",
+            "name": "Boeing 777"
+          }
+        ],
+        "tax": [
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "WO_001",
+            "name": "Indian Passenger Service Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "XY",
+            "name": "US Immigration Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "IN",
+            "name": "Indian User Development Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "FR_007",
+            "name": "French Airport Tax"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "QX",
+            "name": "French International Passenger Service Charge"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "AY_001",
+            "name": "US September 11th Security Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "US_002",
+            "name": "US International Departure Tax"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "XA",
+            "name": "USDA APHIS Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "YR_I",
+            "name": "AF YR surcharge"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "YC",
+            "name": "US Customs Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "XF",
+            "name": "US Passenger Facility Charge"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "YM_001",
+            "name": "India Development Fee"
+          }
+        ],
+        "carrier": [
+          {
+            "kind": "qpxexpress#carrierData",
+            "code": "AF",
+            "name": "Air France"
+          }
+        ]
+      },
+      "tripOption": [
+        {
+          "kind": "qpxexpress#tripOption",
+          "saleTotal": "USD776.98",
+          "id": "eKDJJQIKCrGNelor45Qnb3001",
+          "slice": [
+            {
+              "kind": "qpxexpress#sliceInfo",
+              "duration": 1185,
+              "segment": [
+                {
+                  "kind": "qpxexpress#segmentInfo",
+                  "duration": 485,
+                  "flight": {
+                    "carrier": "AF",
+                    "number": "681"
+                  },
+                  "id": "Go9dZDTZXeh6ERHc",
+                  "cabin": "COACH",
+                  "bookingCode": "V",
+                  "bookingCodeCount": 9,
+                  "marriedSegmentGroup": "0",
+                  "leg": [
+                    {
+                      "kind": "qpxexpress#legInfo",
+                      "id": "LhJzLpplYfuF6APq",
+                      "aircraft": "77W",
+                      "arrivalTime": "2017-02-07T07:40+01:00",
+                      "departureTime": "2017-02-06T17:35-05:00",
+                      "origin": "ATL",
+                      "destination": "CDG",
+                      "originTerminal": "I",
+                      "destinationTerminal": "2E",
+                      "duration": 485,
+                      "mileage": 4382,
+                      "meal": "Breakfast",
+                      "secure": true
+                    }
+                  ],
+                  "connectionDuration": 190
+                },
+                {
+                  "kind": "qpxexpress#segmentInfo",
+                  "duration": 510,
+                  "flight": {
+                    "carrier": "AF",
+                    "number": "218"
+                  },
+                  "id": "GxizNww5GnWsLCCi",
+                  "cabin": "COACH",
+                  "bookingCode": "V",
+                  "bookingCodeCount": 9,
+                  "marriedSegmentGroup": "0",
+                  "leg": [
+                    {
+                      "kind": "qpxexpress#legInfo",
+                      "id": "Le-X1xmAwpU8iNwg",
+                      "aircraft": "772",
+                      "arrivalTime": "2017-02-07T23:50+05:30",
+                      "departureTime": "2017-02-07T10:50+01:00",
+                      "origin": "CDG",
+                      "destination": "BOM",
+                      "originTerminal": "2E",
+                      "destinationTerminal": "2",
+                      "duration": 510,
+                      "mileage": 4343,
+                      "meal": "Meal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "qpxexpress#sliceInfo",
+              "duration": 1268,
+              "segment": [
+                {
+                  "kind": "qpxexpress#segmentInfo",
+                  "duration": 595,
+                  "flight": {
+                    "carrier": "AF",
+                    "number": "217"
+                  },
+                  "id": "G0FOXDynrftbyWLp",
+                  "cabin": "COACH",
+                  "bookingCode": "V",
+                  "bookingCodeCount": 9,
+                  "marriedSegmentGroup": "1",
+                  "leg": [
+                    {
+                      "kind": "qpxexpress#legInfo",
+                      "id": "LdNtmvkXBeKy9wLK",
+                      "aircraft": "772",
+                      "arrivalTime": "2017-02-16T07:35+01:00",
+                      "departureTime": "2017-02-16T02:10+05:30",
+                      "origin": "BOM",
+                      "destination": "CDG",
+                      "originTerminal": "2",
+                      "destinationTerminal": "2E",
+                      "duration": 595,
+                      "mileage": 4343,
+                      "meal": "Breakfast"
+                    }
+                  ],
+                  "connectionDuration": 65
+                },
+                {
+                  "kind": "qpxexpress#segmentInfo",
+                  "duration": 608,
+                  "flight": {
+                    "carrier": "AF",
+                    "number": "3620"
+                  },
+                  "id": "G-xrIcvEbQ7G+exk",
+                  "cabin": "COACH",
+                  "bookingCode": "V",
+                  "bookingCodeCount": 9,
+                  "marriedSegmentGroup": "1",
+                  "leg": [
+                    {
+                      "kind": "qpxexpress#legInfo",
+                      "id": "LHeoui3UnvvGGX1w",
+                      "aircraft": "764",
+                      "arrivalTime": "2017-02-16T12:48-05:00",
+                      "departureTime": "2017-02-16T08:40+01:00",
+                      "origin": "CDG",
+                      "destination": "ATL",
+                      "originTerminal": "2E",
+                      "destinationTerminal": "I",
+                      "duration": 608,
+                      "operatingDisclosure": "OPERATED BY DELTA",
+                      "mileage": 4382,
+                      "meal": "Breakfast",
+                      "secure": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "pricing": [
+            {
+              "kind": "qpxexpress#pricingInfo",
+              "fare": [
+                {
+                  "kind": "qpxexpress#fareInfo",
+                  "id": "AFQroS4VxPZGVwLp97hY++q0jGTsUry361qsnnn4qOdI",
+                  "carrier": "AF",
+                  "origin": "ATL",
+                  "destination": "BOM",
+                  "basisCode": "VL2OR5US"
+                },
+                {
+                  "kind": "qpxexpress#fareInfo",
+                  "id": "AFQroS4VxPZGVwLp97hY++q0jGTsUry361qsnnn4qOdI",
+                  "carrier": "AF",
+                  "origin": "BOM",
+                  "destination": "ATL",
+                  "basisCode": "VL2OR5US"
+                }
+              ],
+              "segmentPricing": [
+                {
+                  "kind": "qpxexpress#segmentPricing",
+                  "fareId": "AFQroS4VxPZGVwLp97hY++q0jGTsUry361qsnnn4qOdI",
+                  "segmentId": "Go9dZDTZXeh6ERHc"
+                },
+                {
+                  "kind": "qpxexpress#segmentPricing",
+                  "fareId": "AFQroS4VxPZGVwLp97hY++q0jGTsUry361qsnnn4qOdI",
+                  "segmentId": "GxizNww5GnWsLCCi"
+                },
+                {
+                  "kind": "qpxexpress#segmentPricing",
+                  "fareId": "AFQroS4VxPZGVwLp97hY++q0jGTsUry361qsnnn4qOdI",
+                  "segmentId": "G-xrIcvEbQ7G+exk"
+                },
+                {
+                  "kind": "qpxexpress#segmentPricing",
+                  "fareId": "AFQroS4VxPZGVwLp97hY++q0jGTsUry361qsnnn4qOdI",
+                  "segmentId": "G0FOXDynrftbyWLp"
+                }
+              ],
+              "baseFareTotal": "USD129.00",
+              "saleFareTotal": "USD129.00",
+              "saleTaxTotal": "USD647.98",
+              "saleTotal": "USD776.98",
+              "passengers": {
+                "kind": "qpxexpress#passengerCounts",
+                "adultCount": 1
+              },
+              "tax": [
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "QX",
+                  "chargeType": "GOVERNMENT",
+                  "code": "QX",
+                  "country": "FR",
+                  "salePrice": "USD41.80"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "FR_007",
+                  "chargeType": "GOVERNMENT",
+                  "code": "FR",
+                  "country": "FR",
+                  "salePrice": "USD18.20"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "YR_I",
+                  "chargeType": "CARRIER_SURCHARGE",
+                  "code": "YR",
+                  "salePrice": "USD498.00"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "US_002",
+                  "chargeType": "GOVERNMENT",
+                  "code": "US",
+                  "country": "US",
+                  "salePrice": "USD17.80"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "AY_001",
+                  "chargeType": "GOVERNMENT",
+                  "code": "AY",
+                  "country": "US",
+                  "salePrice": "USD5.60"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "XF",
+                  "chargeType": "GOVERNMENT",
+                  "code": "XF",
+                  "country": "US",
+                  "salePrice": "USD4.50"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "XA",
+                  "chargeType": "GOVERNMENT",
+                  "code": "XA",
+                  "country": "US",
+                  "salePrice": "USD3.96"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "XY",
+                  "chargeType": "GOVERNMENT",
+                  "code": "XY",
+                  "country": "US",
+                  "salePrice": "USD7.00"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "YC",
+                  "chargeType": "GOVERNMENT",
+                  "code": "YC",
+                  "country": "US",
+                  "salePrice": "USD5.50"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "US_002",
+                  "chargeType": "GOVERNMENT",
+                  "code": "US",
+                  "country": "US",
+                  "salePrice": "USD17.80"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "YM_001",
+                  "chargeType": "GOVERNMENT",
+                  "code": "YM",
+                  "country": "IN",
+                  "salePrice": "USD12.40"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "WO_001",
+                  "chargeType": "GOVERNMENT",
+                  "code": "WO",
+                  "country": "IN",
+                  "salePrice": "USD3.74"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "IN",
+                  "chargeType": "GOVERNMENT",
+                  "code": "IN",
+                  "country": "IN",
+                  "salePrice": "USD11.68"
+                }
+              ],
+              "fareCalculation": "ATL AF X/PAR AF BOM M 64.50VL2OR5US AF X/PAR AF ATL M 64.50VL2OR5US NUC 129.00 END ROE 1.00 FARE USD 129.00 XT 5.50YC 7.00XY 3.96XA 35.60US 5.60AY 18.20FR 41.80QX 11.68IN 3.74WO 12.40YM 498.00YR 4.50XF ATL4.50",
+              "latestTicketingTime": "2016-09-27T06:43+00:00",
+              "ptc": "ADT"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "kind": "qpxExpress#tripsSearch",
+    "trips": {
+      "kind": "qpxexpress#tripOptions",
+      "requestId": "UffaqXzdDKvZmrf0y0P8Tr",
+      "data": {
+        "kind": "qpxexpress#data",
+        "airport": [
+          {
+            "kind": "qpxexpress#airportData",
+            "code": "AMS",
+            "city": "AMS",
+            "name": "Amsterdam Schiphol Airport"
+          },
+          {
+            "kind": "qpxexpress#airportData",
+            "code": "ATL",
+            "city": "ATL",
+            "name": "Atlanta Hartsfield-Jackson International"
+          },
+          {
+            "kind": "qpxexpress#airportData",
+            "code": "BOM",
+            "city": "BOM",
+            "name": "Mumbai/Bombay Chhatrapati Shivaji Int'l"
+          },
+          {
+            "kind": "qpxexpress#airportData",
+            "code": "CDG",
+            "city": "PAR",
+            "name": "Paris Charles de Gaulle"
+          }
+        ],
+        "city": [
+          {
+            "kind": "qpxexpress#cityData",
+            "code": "AMS",
+            "name": "Amsterdam"
+          },
+          {
+            "kind": "qpxexpress#cityData",
+            "code": "ATL",
+            "name": "Atlanta"
+          },
+          {
+            "kind": "qpxexpress#cityData",
+            "code": "BOM",
+            "name": "Mumbai"
+          },
+          {
+            "kind": "qpxexpress#cityData",
+            "code": "PAR",
+            "name": "Paris"
+          }
+        ],
+        "aircraft": [
+          {
+            "kind": "qpxexpress#aircraftData",
+            "code": "772",
+            "name": "Boeing 777"
+          },
+          {
+            "kind": "qpxexpress#aircraftData",
+            "code": "77W",
+            "name": "Boeing 777"
+          }
+        ],
+        "tax": [
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "XY",
+            "name": "US Immigration Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "IN",
+            "name": "Indian User Development Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "FR_007",
+            "name": "French Airport Tax"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "QX",
+            "name": "French International Passenger Service Charge"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "XA",
+            "name": "USDA APHIS Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "YR_I",
+            "name": "KL YR surcharge"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "RN_001",
+            "name": "Netherlands Passenger Service Charge"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "CJ_001",
+            "name": "Netherlands Security Service Charge"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "YC",
+            "name": "US Customs Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "XF",
+            "name": "US Passenger Facility Charge"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "YM_001",
+            "name": "India Development Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "WO_001",
+            "name": "Indian Passenger Service Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "AY_001",
+            "name": "US September 11th Security Fee"
+          },
+          {
+            "kind": "qpxexpress#taxData",
+            "id": "US_002",
+            "name": "US International Departure Tax"
+          }
+        ],
+        "carrier": [
+          {
+            "kind": "qpxexpress#carrierData",
+            "code": "AF",
+            "name": "Air France"
+          },
+          {
+            "kind": "qpxexpress#carrierData",
+            "code": "KL",
+            "name": "KLM Royal Dutch Airlines"
+          }
+        ]
+      },
+      "tripOption": [
+        {
+          "kind": "qpxexpress#tripOption",
+          "saleTotal": "USD760.08",
+          "id": "Pt27K7HZRoBRNSB97tx5k2001",
+          "slice": [
+            {
+              "kind": "qpxexpress#sliceInfo",
+              "duration": 480,
+              "segment": [
+                {
+                  "kind": "qpxexpress#segmentInfo",
+                  "duration": 480,
+                  "flight": {
+                    "carrier": "KL",
+                    "number": "622"
+                  },
+                  "id": "GWLnfmg1za3lsQdQ",
+                  "cabin": "COACH",
+                  "bookingCode": "V",
+                  "bookingCodeCount": 9,
+                  "marriedSegmentGroup": "0",
+                  "leg": [
+                    {
+                      "kind": "qpxexpress#legInfo",
+                      "id": "Lq06+QGvgzcfCkXl",
+                      "aircraft": "772",
+                      "arrivalTime": "2017-02-07T12:25+01:00",
+                      "departureTime": "2017-02-06T22:25-05:00",
+                      "origin": "ATL",
+                      "destination": "AMS",
+                      "originTerminal": "I",
+                      "duration": 480,
+                      "mileage": 4388,
+                      "meal": "Meal",
+                      "secure": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "qpxexpress#sliceInfo",
+              "duration": 510,
+              "segment": [
+                {
+                  "kind": "qpxexpress#segmentInfo",
+                  "duration": 510,
+                  "flight": {
+                    "carrier": "KL",
+                    "number": "3815"
+                  },
+                  "id": "GWIX+AwbonJebjUa",
+                  "cabin": "COACH",
+                  "bookingCode": "V",
+                  "bookingCodeCount": 9,
+                  "marriedSegmentGroup": "1",
+                  "leg": [
+                    {
+                      "kind": "qpxexpress#legInfo",
+                      "id": "LW+VX63AMLmphjEn",
+                      "aircraft": "77W",
+                      "arrivalTime": "2017-02-09T00:20+05:30",
+                      "departureTime": "2017-02-08T11:20+01:00",
+                      "origin": "AMS",
+                      "destination": "BOM",
+                      "destinationTerminal": "2",
+                      "duration": 510,
+                      "operatingDisclosure": "OPERATED BY JET AIRWAYS",
+                      "mileage": 4260,
+                      "meal": "Lunch"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "qpxexpress#sliceInfo",
+              "duration": 595,
+              "segment": [
+                {
+                  "kind": "qpxexpress#segmentInfo",
+                  "duration": 595,
+                  "flight": {
+                    "carrier": "AF",
+                    "number": "217"
+                  },
+                  "id": "GhYITqRm6HOVM0ER",
+                  "cabin": "COACH",
+                  "bookingCode": "V",
+                  "bookingCodeCount": 9,
+                  "marriedSegmentGroup": "2",
+                  "leg": [
+                    {
+                      "kind": "qpxexpress#legInfo",
+                      "id": "LdNtmvkXBeKy9wLK",
+                      "aircraft": "772",
+                      "arrivalTime": "2017-02-16T07:35+01:00",
+                      "departureTime": "2017-02-16T02:10+05:30",
+                      "origin": "BOM",
+                      "destination": "CDG",
+                      "originTerminal": "2",
+                      "destinationTerminal": "2E",
+                      "duration": 595,
+                      "mileage": 4343,
+                      "meal": "Breakfast"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "kind": "qpxexpress#sliceInfo",
+              "duration": 590,
+              "segment": [
+                {
+                  "kind": "qpxexpress#segmentInfo",
+                  "duration": 590,
+                  "flight": {
+                    "carrier": "AF",
+                    "number": "688"
+                  },
+                  "id": "GUQ904TE4p4i8VRi",
+                  "cabin": "COACH",
+                  "bookingCode": "V",
+                  "bookingCodeCount": 9,
+                  "marriedSegmentGroup": "3",
+                  "leg": [
+                    {
+                      "kind": "qpxexpress#legInfo",
+                      "id": "LY4NnPk-S8mKVrRO",
+                      "aircraft": "772",
+                      "arrivalTime": "2017-02-16T17:15-05:00",
+                      "departureTime": "2017-02-16T13:25+01:00",
+                      "origin": "CDG",
+                      "destination": "ATL",
+                      "originTerminal": "2E",
+                      "destinationTerminal": "I",
+                      "duration": 590,
+                      "mileage": 4382,
+                      "meal": "Meal",
+                      "secure": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "pricing": [
+            {
+              "kind": "qpxexpress#pricingInfo",
+              "fare": [
+                {
+                  "kind": "qpxexpress#fareInfo",
+                  "id": "AEM4UD0Eo3akPzA8APeqnNcpYV9opy6c1nHUZfKGNkKs",
+                  "carrier": "KL",
+                  "origin": "ATL",
+                  "destination": "BOM",
+                  "basisCode": "VL2OR5US"
+                },
+                {
+                  "kind": "qpxexpress#fareInfo",
+                  "id": "AFQroS4VxPZGVwLp97hY++q0jGTsUry361qsnnn4qOdI",
+                  "carrier": "AF",
+                  "origin": "BOM",
+                  "destination": "ATL",
+                  "basisCode": "VL2OR5US"
+                }
+              ],
+              "segmentPricing": [
+                {
+                  "kind": "qpxexpress#segmentPricing",
+                  "fareId": "AFQroS4VxPZGVwLp97hY++q0jGTsUry361qsnnn4qOdI",
+                  "segmentId": "GhYITqRm6HOVM0ER"
+                },
+                {
+                  "kind": "qpxexpress#segmentPricing",
+                  "fareId": "AFQroS4VxPZGVwLp97hY++q0jGTsUry361qsnnn4qOdI",
+                  "segmentId": "GUQ904TE4p4i8VRi"
+                },
+                {
+                  "kind": "qpxexpress#segmentPricing",
+                  "fareId": "AEM4UD0Eo3akPzA8APeqnNcpYV9opy6c1nHUZfKGNkKs",
+                  "segmentId": "GWLnfmg1za3lsQdQ"
+                },
+                {
+                  "kind": "qpxexpress#segmentPricing",
+                  "fareId": "AEM4UD0Eo3akPzA8APeqnNcpYV9opy6c1nHUZfKGNkKs",
+                  "segmentId": "GWIX+AwbonJebjUa"
+                }
+              ],
+              "baseFareTotal": "USD129.00",
+              "saleFareTotal": "USD129.00",
+              "saleTaxTotal": "USD631.08",
+              "saleTotal": "USD760.08",
+              "passengers": {
+                "kind": "qpxexpress#passengerCounts",
+                "adultCount": 1
+              },
+              "tax": [
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "YR_I",
+                  "chargeType": "CARRIER_SURCHARGE",
+                  "code": "YR",
+                  "salePrice": "USD249.00"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "US_002",
+                  "chargeType": "GOVERNMENT",
+                  "code": "US",
+                  "country": "US",
+                  "salePrice": "USD17.80"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "AY_001",
+                  "chargeType": "GOVERNMENT",
+                  "code": "AY",
+                  "country": "US",
+                  "salePrice": "USD5.60"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "XF",
+                  "chargeType": "GOVERNMENT",
+                  "code": "XF",
+                  "country": "US",
+                  "salePrice": "USD4.50"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "RN_001",
+                  "chargeType": "GOVERNMENT",
+                  "code": "RN",
+                  "country": "NL",
+                  "salePrice": "USD6.50"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "CJ_001",
+                  "chargeType": "GOVERNMENT",
+                  "code": "CJ",
+                  "country": "NL",
+                  "salePrice": "USD6.60"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "YM_001",
+                  "chargeType": "GOVERNMENT",
+                  "code": "YM",
+                  "country": "IN",
+                  "salePrice": "USD12.40"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "WO_001",
+                  "chargeType": "GOVERNMENT",
+                  "code": "WO",
+                  "country": "IN",
+                  "salePrice": "USD3.74"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "IN",
+                  "chargeType": "GOVERNMENT",
+                  "code": "IN",
+                  "country": "IN",
+                  "salePrice": "USD11.68"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "XA",
+                  "chargeType": "GOVERNMENT",
+                  "code": "XA",
+                  "country": "US",
+                  "salePrice": "USD3.96"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "XY",
+                  "chargeType": "GOVERNMENT",
+                  "code": "XY",
+                  "country": "US",
+                  "salePrice": "USD7.00"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "YC",
+                  "chargeType": "GOVERNMENT",
+                  "code": "YC",
+                  "country": "US",
+                  "salePrice": "USD5.50"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "YR_I",
+                  "chargeType": "CARRIER_SURCHARGE",
+                  "code": "YR",
+                  "salePrice": "USD249.00"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "QX",
+                  "chargeType": "GOVERNMENT",
+                  "code": "QX",
+                  "country": "FR",
+                  "salePrice": "USD20.90"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "FR_007",
+                  "chargeType": "GOVERNMENT",
+                  "code": "FR",
+                  "country": "FR",
+                  "salePrice": "USD9.10"
+                },
+                {
+                  "kind": "qpxexpress#taxInfo",
+                  "id": "US_002",
+                  "chargeType": "GOVERNMENT",
+                  "code": "US",
+                  "country": "US",
+                  "salePrice": "USD17.80"
+                }
+              ],
+              "fareCalculation": "ATL KL X/AMS KL BOM M 64.50VL2OR5US AF X/PAR AF ATL M 64.50VL2OR5US NUC 129.00 END ROE 1.00 FARE USD 129.00 XT 5.50YC 7.00XY 3.96XA 35.60US 5.60AY 6.60CJ 6.50RN 11.68IN 3.74WO 12.40YM 9.10FR 20.90QX 498.00YR 4.50XF ATL4.50",
+              "latestTicketingTime": "2016-09-27T06:43+00:00",
+              "ptc": "ADT"
+            }
+          ]
