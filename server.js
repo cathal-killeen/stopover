@@ -19,66 +19,6 @@ var reqBodies = [{
       {
         "kind": "qpxexpress#sliceInput",
         "origin": "ATL",
-        "destination": "BOM",
-        "date": "2017-02-06",
-        "maxStops": 1,
-        "maxConnectionDuration": 600,
-        "preferredCabin": "COACH",
-        "permittedDepartureTime": {
-          "kind": "qpxexpress#timeOfDayRange",
-          "earliestTime": "00:01",
-          "latestTime": "23:59"
-        },
-        "permittedCarrier": [
-         	""
-        ],
-        "alliance": "SKYTEAM",
-        "prohibitedCarrier": [
-          ""
-        ]
-      },
-      {
-        "kind": "qpxexpress#sliceInput",
-        "origin": "BOM",
-        "destination": "ATL",
-        "date": "2017-02-16",
-        "maxStops": 1,
-        "maxConnectionDuration": 600,
-        "preferredCabin": "COACH",
-        "permittedDepartureTime": {
-          "kind": "qpxexpress#timeOfDayRange",
-          "earliestTime": "00:01",
-          "latestTime": "23:59"
-        },
-        "permittedCarrier": [
-         	""
-        ],
-        "alliance": "SKYTEAM",
-        "prohibitedCarrier": [
-          ""
-        ]
-      }
-    ],
-    "maxPrice": "",
-    "saleCountry": "US",
-    "ticketingCountry": "US",
-    "refundable": false,
-    "solutions": 1
-  }
-},{
-  "request": {
-    "passengers": {
-      "kind": "qpxexpress#passengerCounts",
-      "adultCount": 1,
-      "childCount": 0,
-      "infantInLapCount": 0,
-      "infantInSeatCount": 0,
-      "seniorCount": 0
-    },
-    "slice": [
-      {
-        "kind": "qpxexpress#sliceInput",
-        "origin": "ATL",
         "destination": "AMS",
         "date": "2017-02-06",
         "maxStops": 0,

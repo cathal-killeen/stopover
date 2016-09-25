@@ -9,6 +9,21 @@ a:hover {
   color: #fff;
 }
 
+.panel {
+    margin-top:30px;
+    outline: solid white 5px;
+    color: #1a1a1a;
+    border-radius:0;
+    text-shadow:none;
+    text-align:left;
+    padding-left:none !important;
+    padding-right:none !important;
+}
+
+.list-group-item{
+
+}
+
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
@@ -43,7 +58,7 @@ body {
   min-height: 100%;
 -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
           box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-  background: url(../images/plane2x.jpg) no-repeat center center fixed; 
+  background: url(../images/plane2x.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -133,9 +148,22 @@ body {
   color: white;
 }
 
-.text-field {
-
+#intro-box,#intro-search {
+    margin-bottom:40px;
 }
+
+#intro-box{
+    margin-top:100px
+}
+
+#intro-box.ng-hide-add {
+    animation:1s bounceOutDown ease;
+}
+
+#search-box.ng-hide-remove, #flight-item.ng-hide-remove{
+    animation:1s bounceInUp ease;
+}
+
 
 
 
@@ -144,10 +172,10 @@ body {
  */
 
 .mastfoot {
-  color: #999;
+  color: white;
 
-  color: rgba(0,0,0,.7);
-  text-shadow: 2px 2px white;
+  /*color: rgba(0,0,0,.7);
+  text-shadow: 2px 2px white;*/
 }
 
 
