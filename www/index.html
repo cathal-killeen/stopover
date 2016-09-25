@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Stopover</title>
+    <title>Resti</title>
     <link href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/stylesheet.css" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Arima+Madurai|Open+Sans" rel="stylesheet">
+    <link href="components/angular-datepicker/dist/angular-datepicker.min.css" rel="stylesheet">
     <link rel="icon" href="../../favicon.ico">
 
     <script src="//code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
@@ -17,14 +18,15 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-animate.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+    <script src="components/angular-datepicker/dist/angular-datepicker.min.js"></script>
+    <script src="components/moment/min/moment-with-locales.min.js"></script>
     <script src="app.js"></script>
 </head>
 <body ng-app="myApp">
     <div class="site-wrapper container-fluid" ng-controller="MainCtrl">
 
         <div class="row">
-            <h3 class="masthead-brand">Resti</h3>
+            <h3 class="masthead-brand" style="color:white;margin-top:70px">Restiton.me</h3>
         </div>
 
         <div class="row">
@@ -47,10 +49,18 @@
                     </div>
                     <div class="row">
                         <div class="form-group col-md-6">
-                            <input type="text" class="form-control" placeholder="Departure Date">
+                            <input type="datetime"
+           date-time
+           auto-close="true"
+           view="date"
+           min-view="date" format="dddd, MMMM Do YYYY" class="form-control" placeholder="Departure Date" ng-model="depDate">
                         </div>
                         <div class="form-group col-md-6">
-                            <input type="text" class="form-control" placeholder="Return Date">
+                            <input type="datetime"
+           date-time
+           auto-close="true"
+           view="date"
+           min-view="date" format="dddd, MMMM Do YYYY" class="form-control" placeholder="Return Date" ng-model="retDate">
                         </div>
                     </div>
                     <div class="row">
@@ -62,22 +72,27 @@
                     <div class="panel-heading"><b>{{flight.trips.tripOption[0].saleTotal.substring(3) | currency:'$':0}}</b></div>
                         <div class="panel-body">
                             <div ng-repeat="slice in flight.trips.tripOption[0].slice">
-                                <div class="row" ng-repeat="segment in slice.segment">
-                                    <div class="col-sm-2">
-                                        {{segment.leg[0].departureTime.toLocaleDateString()}}<br>
-                                        {{segment.leg[0].departureTime}}
+                                <div ng-repeat="segment in slice.segment">
+                                    <div class="row">
+                                        <div class="col-sm-2">
+                                            {{segment.leg[0].departureTime.slice(0,-6) | date:'mediumDate'}}
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <b>{{segment.leg[0].origin}} -> {{segment.leg[0].destination}}</b>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-6">
-
-                                        <b>{{segment.leg[0].origin}} -> {{segment.leg[0].destination}}</b>
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            {{segment.leg[0].departureTime.slice(0,-6) | date:'shortTime'}} - {{segment.leg[0].arrivalTime.slice(0,-6) | date:'shortTime'}}
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row" style="float:bottom">
-                    <div class="col-xs-12 mastfoot">
+                <div class="row" style="margin-top:500px;color:white;">
+                    <div class="col-xs-12">
 
                                 <p>Cover template for <a href="http://hackgt.com"><span style="text-shadow: 1px 1px black;">HackGT</span></a>.</p>
                                 <p>Created by Anne Chen, Cathal Killeen, <br /> Harsh Gosar, and Minju Kwon</p>

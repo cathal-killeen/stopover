@@ -1,5 +1,5 @@
 
-angular.module('myApp', ['ngRoute', 'ngAnimate'])
+angular.module('myApp', ['ngRoute', 'ngAnimate','datePicker'])
 .config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
 
@@ -10,6 +10,11 @@ angular.module('myApp', ['ngRoute', 'ngAnimate'])
     $scope.showIntro = true;
     $scope.showSearch= false;
     $scope.flightArr = [];
+    $scope.origin = "ATL";
+    $scope.destination = "BOM";
+    $scope.depTime = "";
+    $scope.retTime = "";
+    $scope.flights = []
 
     $scope.enterIntro = function() {
         $scope.showIntro = false;
@@ -19,12 +24,11 @@ angular.module('myApp', ['ngRoute', 'ngAnimate'])
     }
 
     $scope.search = function(){
-        
+
         URL = $location.protocol() + '://' + $location.host() + ':' + $location.port();
         $http.get(URL + '/api').then(function(res){
             console.log(res);
             $scope.flightArr = res.data;
-
         })
     }
 }]);
