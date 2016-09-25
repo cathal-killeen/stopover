@@ -1,4 +1,4 @@
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 var KEY = 'AIzaSyAgXXOYNvbH7admBjrGUmVu8B4IkHbSMro';
 
 var express = require('express');

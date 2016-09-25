@@ -19,6 +19,7 @@ angular.module('myApp', ['ngRoute', 'ngAnimate'])
     }
 
     $scope.search = function(){
+        
         URL = $location.protocol() + '://' + $location.host() + ':' + $location.port();
         $http.get(URL + '/api').then(function(res){
             console.log(res);
